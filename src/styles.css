@@ -1,13 +1,14 @@
 :root {
   --primary-color: #dd2e18;
   --secondary-color: #ffab00;
+  --tertiary-color: #534e4a;
   --background-color: #efebe7;
   --heading-font-family: "Montserrat", sans-serif;
   --default-font-famuly: "Poppins", sans-serif;
 }
 
 body {
-  color: var(--background-color);
+  background-color: var(--background-color);
 }
 
 .hero {
@@ -18,7 +19,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 150px;
   font-weight: 800;
-  color: #dd2e18;
+  color: var(--primary-color);
   line-height: 0.8;
   margin-top: 250px;
 }
@@ -27,13 +28,43 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: #dd2e18;
+  color: var(--primary-color);
   margin-bottom: 80px;
 }
 
 .btn-branding {
-  background-color: #ffab00;
-  border-color: #ffab00;
-  margin-bottom: 170px;
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
   color: white;
+}
+
+.homepage-projects {
+  margin: 170px 0;
+}
+
+.homepage-projects h2 {
+  font-size: 44px;
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  color: var(--tertiary-color);
+  padding: 50px 0px;
+}
+
+.homepage-projects p {
+  font-size: 14px;
+  font-family: var(--default-font-famuly);
+  color: var(--tertiary-color);
+  line-height: 30px;
+}
+
+.weather-app {
+  text-align: right;
+}
+
+.project-description {
+  padding: 0px 60px;
+}
+
+.row {
+  margin-top: 60px;
 }
