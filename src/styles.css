@@ -21,7 +21,7 @@ body {
   font-weight: 800;
   color: var(--primary-color);
   line-height: 0.8;
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 .hero p {
@@ -29,7 +29,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   color: var(--primary-color);
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .btn-branding {
@@ -39,7 +39,7 @@ body {
 }
 
 .homepage-projects {
-  margin: 170px 0;
+  margin: 70px 0;
 }
 
 .homepage-projects h2 {
@@ -47,7 +47,7 @@ body {
   font-family: var(--heading-font-family);
   font-weight: 600;
   color: var(--tertiary-color);
-  padding: 50px 0px;
+  padding: 30px 0px;
 }
 
 .homepage-projects p {
@@ -66,5 +66,29 @@ body {
 }
 
 .row {
-  margin-top: 60px;
+  padding: 60px 20px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+  .homepage-projects h2 {
+    font-size: 35px;
+  }
+  .hero h1 {
+    font-size: 120px;
+  }
+}
+
+.first-row {
+  border-right: solid;
+  border-bottom: solid;
+  border-color: var(--primary-color);
+}
+
+.second-row {
+  border-left: solid;
+  border-color: var(--primary-color);
 }
