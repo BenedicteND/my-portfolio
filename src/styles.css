@@ -2,7 +2,7 @@
   --primary-color: #dd2e18;
   --secondary-color: #ffab00;
   --tertiary-color: #534e4a;
-  --background-color: #efebe7;
+  --background-color: #e5e5e5;
   --heading-font-family: "Montserrat", sans-serif;
   --default-font-famuly: "Poppins", sans-serif;
 }
@@ -65,7 +65,7 @@ body {
   padding: 0px 60px;
 }
 
-.row {
+.homepage-projects .row {
   padding: 60px 80px;
 }
 
@@ -95,4 +95,29 @@ body {
 
 img {
   border-radius: 5px;
+}
+
+.inquiry-card {
+  margin: 50px auto;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: 5px;
+  padding: 20px 40px 0px 30px;
+}
+
+.btn-contact {
+  text-align: right;
+}
+
+.inquiry-card h2 {
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+}
+
+.inquiry-card p {
+  font-family: var(--default-font-famuly);
+}
+
+.card .btn-branding {
+  margin-top: 15px;
 }
