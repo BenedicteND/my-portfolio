@@ -47,7 +47,6 @@ body {
   font-family: var(--heading-font-family);
   font-weight: 600;
   color: var(--tertiary-color);
-  padding: 30px 0px;
 }
 
 .homepage-projects p {
