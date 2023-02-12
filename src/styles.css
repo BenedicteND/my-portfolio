@@ -131,4 +131,8 @@ img {
   .inquiry-card h2 {
     font-size: 22px;
   }
+
+  .inquiry-card {
+    text-align: center;
+  }
 }
