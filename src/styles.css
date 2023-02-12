@@ -68,19 +68,6 @@ body {
   padding: 60px 80px;
 }
 
-@media (max-width: 960px) {
-  .project-description {
-    text-align: center;
-    padding: 0;
-  }
-  .homepage-projects h2 {
-    font-size: 35px;
-  }
-  .hero h1 {
-    font-size: 120px;
-  }
-}
-
 .first-row {
   border-right: solid;
   border-bottom: solid;
@@ -115,8 +102,33 @@ img {
 
 .inquiry-card p {
   font-family: var(--default-font-famuly);
+  font-size: 14px;
 }
 
 .card .btn-branding {
-  margin-top: 15px;
+  margin: 15px 0px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+  .homepage-projects h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 120px;
+  }
+  .homepage-projects {
+    margin: 10px;
+  }
+  .homepage-projects .row {
+    padding: 10px;
+  }
+
+  .inquiry-card h2 {
+    font-size: 22px;
+  }
 }
