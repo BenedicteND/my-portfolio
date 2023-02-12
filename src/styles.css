@@ -135,4 +135,8 @@ img {
   .inquiry-card {
     text-align: center;
   }
+  .card .btn-branding {
+    display: block;
+    margin: 15px auto;
+  }
 }
