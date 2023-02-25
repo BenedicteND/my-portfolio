@@ -30,12 +30,12 @@ nav li {
 nav a {
   text-decoration: none;
   color: var(--tertiary-color);
+  transition: all 150ms ease;
 }
 
 nav a:hover,
 nav li.active a {
   color: var(--primary-color);
-  transition: all 150ms ease;
 }
 
 .hero {
@@ -105,32 +105,26 @@ img {
   border-radius: 5px;
 }
 
-.inquiry-card {
-  margin: 50px auto;
+footer .inquiry-card {
   background-color: var(--primary-color);
   color: var(--background-color);
-  border: 5px;
-  padding: 20px 40px 0px 30px;
+  border-radius: 5px;
+  padding: 30px 60px;
+  border-radius: 5px;
 }
 
-.btn-contact {
-  text-align: right;
-}
-
-.inquiry-card h2 {
+footer .inquiry-card h2 {
   font-family: var(--heading-font-family);
   font-size: 32px;
 }
 
-.inquiry-card p {
+footer .inquiry-card p {
   font-family: var(--default-font-famuly);
   font-size: 14px;
 }
-
-.card .btn-branding {
-  margin: 15px 0px;
+footer .inquiry-card .btn-branding {
+  margin: 20px;
 }
-
 .content-container {
   padding: 100px 60px 50px 60px;
 }
@@ -164,6 +158,35 @@ img {
   margin: 0 30px 20px 30px;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-size: 20px;
+  transition: all 150ms ease;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+.social-links a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  margin: 10px;
+  font-size: 18px;
+  padding: 10px 16px;
+  border-radius: 50%;
+  background-color: #a8a8a82b;
+}
+
+.social-links a:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 960px) {
   .project-description {
     text-align: center;
@@ -181,23 +204,6 @@ img {
   }
   .homepage-projects .row {
     padding: 10px;
-  }
-
-  .inquiry-card h2 {
-    font-size: 22px;
-  }
-
-  .inquiry-card p {
-    padding: 0;
-    margin: 0;
-  }
-
-  .inquiry-card {
-    text-align: center;
-  }
-  .card .btn-branding {
-    display: block;
-    margin: 15px auto;
   }
   .content-container {
     text-align: center;
