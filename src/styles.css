@@ -13,6 +13,7 @@ body {
 
 .hero {
   text-align: center;
+  padding: 100px 60px;
 }
 
 .hero h1 {
@@ -21,7 +22,6 @@ body {
   font-weight: 800;
   color: var(--primary-color);
   line-height: 0.8;
-  margin-top: 100px;
 }
 
 .hero p {
@@ -29,17 +29,12 @@ body {
   font-size: 20px;
   font-weight: 400;
   color: var(--primary-color);
-  margin-bottom: 40px;
 }
 
 .btn-branding {
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
   color: white;
-}
-
-.homepage-projects {
-  margin: 70px 80px;
 }
 
 .homepage-projects h2 {
@@ -109,6 +104,33 @@ img {
   margin: 15px 0px;
 }
 
+.about-section {
+  padding: 100px 60px 50px 60px;
+}
+
+.about-section h1 {
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  color: var(--tertiary-color);
+}
+
+.about-section h2 {
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+  color: var(--tertiary-color);
+}
+
+.about-section p {
+  font-size: 14px;
+  font-family: var(--default-font-famuly);
+  color: var(--tertiary-color);
+  line-height: 30px;
+}
+
+.about-section-content {
+  margin: 0 30px 20px 30px;
+}
+
 @media (max-width: 960px) {
   .project-description {
     text-align: center;
@@ -138,5 +160,9 @@ img {
   .card .btn-branding {
     display: block;
     margin: 15px auto;
+  }
+  .about-section {
+    text-align: center;
+    padding: 10px;
   }
 }
