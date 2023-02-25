@@ -108,23 +108,29 @@ img {
   padding: 100px 60px 50px 60px;
 }
 
-.content-container h1 {
+.content h1 {
   font-family: var(--heading-font-family);
   font-size: 36px;
   color: var(--tertiary-color);
 }
 
-.content-container h2 {
+.content h2 {
   font-size: 20px;
   font-family: var(--heading-font-family);
   color: var(--tertiary-color);
 }
 
-.content-container p {
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-famuly);
+  color: var(--tertiary-color);
+}
+
+.content p {
   font-size: 14px;
   font-family: var(--default-font-famuly);
   color: var(--tertiary-color);
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .content {
@@ -163,6 +169,6 @@ img {
   }
   .content-container {
     text-align: center;
-    padding: 10px;
+    padding: 40px 10px;
   }
 }
