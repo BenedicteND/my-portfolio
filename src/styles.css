@@ -1,14 +1,16 @@
 :root {
-  --primary-color: #dd2e18;
-  --secondary-color: #ffab00;
-  --tertiary-color: #534e4a;
-  --background-color: #e5e5e5;
+  --primary-color: #994828;
+  --secondary-color: #7c9465;
+  --tertiary-color: #322218;
+  --background-color: #92816d;
+  --quarternary-color: #dbdbdbae;
   --heading-font-family: "Montserrat", sans-serif;
   --default-font-famuly: "Poppins", sans-serif;
 }
 
 body {
   background-color: var(--background-color);
+  margin: 0px 150px;
 }
 
 nav {
@@ -25,6 +27,7 @@ nav li {
   list-style-type: none;
   line-height: 42px;
   margin-left: 15px;
+  font-size: 18px;
 }
 
 nav a {
@@ -35,7 +38,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--primary-color);
+  color: #4e643a;
 }
 
 .hero {
@@ -62,6 +65,12 @@ nav li.active a {
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
   color: white;
+}
+
+.page-content {
+  background-color: var(--quarternary-color);
+  padding: 50px;
+  border-radius: 5px;
 }
 
 .homepage-projects h2 {
@@ -93,12 +102,12 @@ nav li.active a {
 .first-row {
   border-right: solid;
   border-bottom: solid;
-  border-color: var(--primary-color);
+  border-color: var(--secondary-color);
 }
 
 .second-row {
   border-left: solid;
-  border-color: var(--primary-color);
+  border-color: var(--secondary-color);
 }
 
 img {
@@ -107,7 +116,7 @@ img {
 
 footer .inquiry-card {
   background-color: var(--primary-color);
-  color: var(--background-color);
+  color: var(--tertiary-color);
   border-radius: 5px;
   padding: 30px 60px;
   border-radius: 5px;
@@ -118,7 +127,8 @@ footer .inquiry-card h2 {
   font-size: 32px;
 }
 
-footer .inquiry-card p {
+footer .inquiry-card p,
+open-source-link {
   font-family: var(--default-font-famuly);
   font-size: 14px;
 }
@@ -131,7 +141,7 @@ footer .inquiry-card .btn-branding {
 
 .content h1 {
   font-family: var(--heading-font-family);
-  font-size: 36px;
+  font-size: 32px;
   color: var(--tertiary-color);
 }
 
@@ -170,7 +180,7 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-  color: var(--primary-color);
+  color: #4e643a;
 }
 
 .social-links a {
@@ -184,7 +194,7 @@ footer .email-link:hover {
 }
 
 .social-links a:hover {
-  color: var(--primary-color);
+  color: #4e643a;
 }
 
 @media (max-width: 960px) {
