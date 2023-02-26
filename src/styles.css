@@ -10,7 +10,6 @@
 
 body {
   background-color: var(--background-color);
-  margin: 0px 150px;
 }
 
 nav {
@@ -218,5 +217,17 @@ footer .email-link:hover {
   .content-container {
     text-align: center;
     padding: 40px 10px;
+  }
+}
+
+@media (min-width: 700px) {
+  body {
+    margin: 0px 100px;
+  }
+}
+
+@media (min-width: 960px) {
+  body {
+    margin: 0px 150px;
   }
 }
